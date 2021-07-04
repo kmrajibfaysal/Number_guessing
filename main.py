@@ -18,7 +18,7 @@ count = 0
 
 # for calculation of minimum number of
 # guesses depends upon range
-while count < magit th.log(upper - lower + 1, 2):
+while count < math.log(upper - lower + 1, 2):
     count += 1
 
     # taking guessing number as input
@@ -40,3 +40,4 @@ while count < magit th.log(upper - lower + 1, 2):
 if count >= math.log(upper - lower + 1, 2):
     print("\nThe number is %d" % x)
     print("\tBetter Luck Next time!")
+
